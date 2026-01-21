@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagicPod Display None テスト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>MagicPod Display None テスト</h1>
+    
+    <button id="visible-button" onclick="alert('表示ボタンがクリックされました')">
+        表示されているボタン
+    </button>
+    
+    <p>非表示ボタン↓</p>
+    <button id="hidden-button" style="display: none;" onclick="alert('非表示ボタンがクリックされました')">
+        非表示のボタン
+    </button>
+</body>
+</html>
